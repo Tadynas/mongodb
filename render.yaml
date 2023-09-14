@@ -1,6 +1,7 @@
 services:
   - type: web
     name: mongodb
+    plan: free
     env: docker
     autoDeploy: false
     disk:
